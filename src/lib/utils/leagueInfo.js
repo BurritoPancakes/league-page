@@ -23,8 +23,10 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
   {
+    "roster":null,
     "managerID": "996460592841928704",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Mike McShane",
+    "tookOver":null,
     "location": "West Roxbury, MA, USA", // (optional)
     "bio": "Webster's Dictionary defines 'Commissioner' as 'a member of a commission', wait no that doesn't really help...oh here we go, as 'the representative of the governmental authority in a district, province, or other unit often having both judicial and administrative powers'. Actually not really sure what that means. Let's see what else they have. 'The officer in charge of a department or bureau of the public service', nah not what I'm looking for. Oh here we are, let's try this again. Webster's Dictionary defines 'Commissioner' as 'the administrative head of a professional sport'. So, why will I win this year? Well as the administrative head of this league, turns out I can change the rules to make me win! It really is that easy! In fact, since you all have to send me money anyways, why don't we just pick this back up again next year. It was a pleasure taking your money...I mean hosting the league with you all once again this year.",
     "photo": "/managers/mike_mcshane_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -43,8 +45,10 @@ export const managers = [
     "tradingScale": 9, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "434817840378277888",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Kevin McAllister",
+    "tookOver":null,
     "location": "London, England", // (optional)
     "bio": "Have you ever met someone and immediately known that they will make it big? That if anyone's face is going to be out there, it would be them? Kevin 'Fame' McAllister is that person. Having tasted (league-wide) fame in 2018, Kevin set his sights on bigger things. And not long after, you could find his face gracing the pages of newspapers worldwide. So what will this star do next? It seems he has set his sights on winning this Survivor Pool. And if he had what it took to achieve worldwide recognition, he has what it takes to beat everyone else and become the 2020 Survivor Pool Champion. Don't be surprised if you see Kevin's face gracing the league newsletter at the end of this year.",
     "photo": "/managers/kevin_mcallister_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -63,8 +67,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "550860293976215552",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Max Dunbar",
+    "tookOver":null,
     "location": "Boston?", // (optional)
     "bio": "What do you get when you combine a raw love for the game with the incredible ability to analyze football players for how they'll perform this year? You get Max Dunbar. There is no overstating his brilliance in the (stats) sheets. The Overdog will exceed your expectations. It is rumored that in 2018 he was asked by all 32 NFL teams to help them with their draft boards. For the fun of the challenge, he agreed and was able to successfully create some of the best pairings in football today; putting Saquon Barkley in New York, Nick Chubb in Cleveland, and most notably Lamar Jackson in Baltimore. If I were to predict that Max will win it all this year, he will win the league twice over. ",
     "photo": "/managers/max_dunbar_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -83,8 +89,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "865673135989575680",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Neal McGovern",
+    "tookOver":null,
     "location": "Cambridge, MA, USA", // (optional)
     "bio": "Have you ever thought, 'my bench depth is lacking this week, maybe I should pick him up'? That moment of hesitation is all he needs. Take a moment to think, stop to tie your shoes, blink or breathe one extra time and you will see your dreams crushed before your eyes. Don't wait until waivers have passed, because Neal will have picked up your player. Try to offload good players on their bye week and the next week Neal will have them on his team. Thinking about going out for ice cream tonight? Neal is already finishing off the cone. If commitment and dedication aren't what you need to take home the trophy this year I don't know what is; and if Neal isn't commitment and dedication then I don't know who is. ",
     "photo": "/managers/neal_mcgovern_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -103,8 +111,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "869792642324733952",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Bobby Looney",
+    "tookOver":null,
     "location": "Charlestown, MA, USA", // (optional)
     "bio": "It is a fact that last year was an Absolute Disaster for Bobby Looney; and honestly most of the years before that were A Disgrace too, but that's not the Bobby we all know. When you see him on the field you think wow he's an Absolute Dog. You see him out at night and think now that's an Attractive Dude. Chill with him for an afternoon and you know that he's an All-around Dynamite friend. From spectator, to player, to captain, to champion, and all the way up to Athletic Director, Bobby has worked his way up in his real life sports career, so what's to make us believe he won't do the same in our league. You would be A Dunce to count out the A.D. ",
     "photo": "/managers/bobby_looney_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -123,8 +133,10 @@ export const managers = [
     "tradingScale": 10, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "996873398301102080",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Chris Kelly",
+    "tookOver":null,
     "location": "Dedham, MA, USA", // (optional)
     "bio": "What could a cerebral type possibly hope to achieve in a contest about football? Well let me introduce you to the one and only Chris Kelly and show you just what he can do. You've been watching football for years...big whoop, Brainiac has studied defenses, offenses, and even special teams formations. Wonder how likely the Browns are to win a game this year? Just ask Chris and I'm sure he'll have worked out the probability. Chris' chance of winning this year and his performance last year are independent events. Additionally, the league history stats don't lie, Chris can win. Oh and I think I should mention that Brainiac has a PhD in kicking butt, and this year he is gonna school us all.",
     "photo": "/managers/chris_kelly_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -143,8 +155,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "996955100054614016",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Alex Trombetta",
+    "tookOver":null,
     "location": "Cambridge, MA, USA", // (optional)
     "bio": "Turtles are known to be one of the oldest creatures on this planet; they were here before we were born, and they'll be here long after we leave. They are consistent. And they say consistency is the key to success; so if you're looking for consistency, look no further than The Turtle. Alex will first make you think he isn't a threat. He'll stay back watching everyone else tire themselves out grasping and fighting for position. And then when push comes to shove, he'll hit you with shell, bite you like you're his lunch, and make the playoffs. Every. Single. Time. Like a turtle, don't underestimate Alex. In this league, you're the rabbit and with one misstep, The Turtle will step right over you on his way to victory.",
     "photo": "/managers/alex_trombetta_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -163,8 +177,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "996976158145105920",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Dan McCormack",
+    "tookOver":null,
     "location": "Brighton?", // (optional)
     "bio": "Don't let his age fool you, Youngster is already more of a man than you'll ever be. With the energy of an 18 year old, Dan stays up all night partying and still has time to come home and crush you in the challenge of your choosing. Sometimes his energy manifests itself as an impulsive trade of Aaron Rodgers in his MVP season, sometimes as driving his knee through a wall during mini-hockey, and sometimes as concentrating hard enough that you can watch his beard grow before your eyes. Don't have the energy to constantly monitor Twitter for injury updates? Dan does. Can't stay up for the Sunday night games? Dan can. Don't have the sheer willpower to go toe-to-toe with some of the best Fantasy Footballers in the world? Dan does, Dan can, and Dan will. They say that if you don't watch your back, someone younger and hotter is going to come and take the title right out from under your feet. Dan is that someone.",
     "photo": "/managers/dan_mccormack_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -183,8 +199,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "997006433533128704",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Paul Labelle",
+    "tookOver":null,
     "location": "Los Angeles, CA, USA", // (optional)
     "bio": "Paul Labelle can be found walking the city streets late at night searching for trouble. Donning 90's basketball jerseys and bumping to music from Biggie Smalls on his walkman, this is not a man you want to run into in the dark. Paul will jump at any chance to smack (talk) you around and tell you why HE is going to win again this year. Still not scared? Come see me again in Week 10 where I guarantee you Paul will still be alive and thriving.",
     "photo": "/managers/paul_labelle_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
@@ -203,8 +221,10 @@ export const managers = [
     "tradingScale": 5, // 1 - 10 (optional)
     "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },{
+    "roster":null,
     "managerID": "997015421221953536",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Jake Teixeira",
+    "tookOver":null,
     "location": "Fernandina Beach, FL, USA", // (optional)
     "bio": "Purr-haps last year was not a bright spot for Tex's fantasy football career, but just looking at last year would not be a fair analysis of his abilities. So let's paws and take a moment to think about what he has achieved in his career. He has had just as much success as any of us, and back in 2011 he even clawed his way to the top spot. When he's on his game he is a fur-midable opponent and truly anything is paw-sible for him. So don't count him out, because you know he is going to stay paw-sitive and put up a fight. To him we're all just pieces of trash in his way, and Cat Daddy doesn't waste his time with litter.",
     "photo": "/managers/jake_teixeira_survivor_pic.jpg", // square ratio recommended (no larger than 500x500)
